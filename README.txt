@@ -29,7 +29,7 @@ Analytic Application(Graph_HCM.java,GraphMI.java,GraphNY.java,MQTTPull.java):
 	MQTTPull:This application will open a connection to Cloud MQTT and pull the info from the server. The figures will be sorted into different lists base on the topic they belong to. Then it will calculate and print the average, highest, lowest temparature in each city throughout the time. 
 	
 	Graph: Similarity, this application also open a connection and pull the info from the CloudMQTT server. It will then draw a graph.
-Run order:
+Run order: Please include the jarfiles from the folder to build library first.
 	Server.java -> the sensors you want to access(HCMC_Client.java,MIAMI_Client.java,NYC_Client.java) -> the corresspond application(Graph_HCM.java,GraphMI.java,GraphNY.java,MQTTPull.java)
 Pros:
 	The temperature get update very fast, down to one millisecond. 
